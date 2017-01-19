@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family:'Passion One', cursive;sans-serif;
+	font-size: 18px;
+	color: #333
+}
+img{display: block;
+	max-width: 100%;}
+
+*{	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;}
+
+header{background-color: #FF7F00;}
+
+footer{	background-color: #FF7F00;}
+
+header,footer{min-height: 100px;}
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+	overflow:hidden;}
+
+.page-not-found,.page-not-found-img{
+	width: 50%;
+	float: left;}
+
+.page-not-found h1{
+	font-size:150px;
+	color:#FF5D2C;
+	margin: 0;}
+
+.page-not-found h2{
+	font-size: 70px;
+	margin: 0;
+	text-transform: capitalize;}
+
+.page-not-found p{
+	font-family: monospace;
+    font-size: 15px;
+    color: rgba(25, 23, 23, 0.53);
+}
+.page-not-found ul{
+	margin: 0; padding: 0;}
+.page-not-found ul li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	margin-bottom: 10px;}
+
+.page-not-found ul li a{
+	display: block;
+	padding: 10px 20px;
+	font-size: 25px;
+	background-color: #FF7F00;
+	text-transform: uppercase;
+	border-radius: 10px;
+    text-decoration: none;
+	color: #fff;
+	box-shadow:0 6px 0 rgba(255, 127, 0, 0.79)}
+.page-not-found-img{
+	text-align: center;
+}
+.page-not-found-img img{
+	width: 70%;
+	display: inline-block;
+}
+#page-not-found{
+padding: 80px 0;}
